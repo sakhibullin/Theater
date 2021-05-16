@@ -1,0 +1,423 @@
+body {
+  box-sizing: border-box;
+  font-family: 'San Francisco Pro';
+font-style: normal;
+font-weight: 600;
+margin:0;
+}
+
+
+
+.container{
+ max-width:1440px;
+  margin:auto;
+}
+
+a{
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+}
+
+#header {
+	height: 120px;
+  background: #FBFBFB;
+  z-index: 1;
+}
+.fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.gal{
+  opacity: 0;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+
+.header_st{
+  padding:0; 
+  margin-left:50px;
+  display: flex;
+  background: #fbfbfb;
+}
+
+.up{
+  padding-top:42px ;
+  margin-left:50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+
+  color: #818181;
+}
+
+
+.down{
+  margin-top:3px; 
+  margin-left:50px;
+
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+
+  color: #282828;
+}
+
+/* For aesthetics only ------------------------------------------------------------------*/
+
+.main__menu{
+  display: block;
+  background: #FFFFFF;
+  width: 100%;
+  height: 71px;
+  z-index: 3;
+  display:flex;
+}
+
+.main__menu a{
+  margin-right: 50px;
+  color: #282828;
+}
+
+.btn_up{
+  width: 500px;  
+  height: 18px;
+  margin-left: 50px;
+  padding-top: 26px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header_st a{
+  color: #282828;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.2px;
+  height: fit-content;
+  margin:auto 50px auto auto;
+}
+
+.explanation {
+  padding: 20px;
+  max-width: 600px;
+  p {
+    max-width: 300px;
+    color: #fff;
+    font-size: 0.8rem;
+  }
+}
+.slider__photo{
+  width: 100%;
+}
+
+.list{
+  margin-top: 10px;
+}
+
+.list h2{
+  margin-left:50px;
+  opacity: 0;
+  position: relative;
+  z-index: -1;
+  font-weight: bold;
+  font-size: 36px;
+}
+.rel{
+  position: relative;
+  height: 240px;
+}
+
+.block{
+  background: grey;
+  width: 305px;
+  height: 400px;
+  margin: 10px;
+}
+
+.gal{
+  /*display: inline-flex;*/
+  margin-left:50px;
+}
+
+
+
+
+.gradient {
+  width: 100%;
+  display: inline-block;
+  position: relative; ;    
+  line-height: 0;
+}
+.gradient:after {
+  content: "";
+  display: block;    
+  width: 100%;
+  height: 100%;    
+  position: absolute;
+  top: 0;      
+  left: 0;   
+  background: transparent;
+  background-image: linear-gradient(234.97deg, rgba(0, 0, 0, 0.08) 29.39%, rgba(0, 0, 0, 0.71) 86.57%);  opacity: 0.8;
+}
+
+
+.polos{
+  padding-top: 30px;
+  color: #FA434B;
+}
+
+.more{
+  border: 2px #282828 solid;
+  border-radius: 100px;
+  background-color: #fff;
+  margin-top: 50%;
+  padding: 10px 50px;
+  font-size:20px;
+  margin-left:50px;
+  transition: 0.5s;
+}
+
+.more:active {
+ outline: none;
+}
+
+.more:hover{
+  background: #282828;
+  color: #fff;
+}
+
+.date{
+  background: #FA434B;
+    color: #fff;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.rate{
+  background-color: #efefef;
+  color: #000;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.name{
+  color: white;
+  margin-top:70%;
+  margin-left:10px;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+
+.desc{
+  color:white;
+  font-size:12px;
+  margin-left:10px;
+  margin-right:10px;
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+}
+
+.polos{
+  width: 100%;
+  height: 78px;
+  background: #FA434B;
+  text-align: center;
+  margin-top: 30px;
+}
+.polos div{
+  
+  padding: 30px 165px ;
+  text-align: center; 
+}
+.polos button{
+  margin-right:20px; 
+  color: #ffffff;
+  width: 211px;
+  height: 45px;
+  border:  2.5px #ffffff solid;
+  border-radius: 40px;
+  background: #FA434B;
+  transition: .5s;
+  font-weight: 600;
+font-size: 18px;
+}
+
+.polos button:hover{
+  color:#FA434B;
+  background: #fff;
+}
+
+.arrowMore{
+  width: 60px;
+    margin: auto 10px;
+    height: 7px;
+}
+
+.top{
+  display: flex;
+}
+
+.arrowMoreBt{
+  cursor: pointer;
+    display: flex;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+.newsPosts{
+  width: 100%;
+    height: 600px;
+}
+
+.newsPostsRow{
+  width: 100%;
+    height: 50%;
+    display: flex
+}
+
+.post{
+  /*background: #c4c4c4;*/
+    width: 50%;
+    height: 95%;
+    margin: 20px 20px;
+    opacity: 0;
+}
+
+.post img{
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.description{
+  display: flex;
+  color: #000;
+}
+
+.description p{
+  color:#c4c4c4;
+  margin-left: auto;
+  margin:auto 0 auto auto;
+}
+
+.NewsFont{
+  font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;color: #86837F;margin:0;
+}
+
+.bgMap{
+  margin-top:50px;
+}
+
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 180px;
+  background: #000;
+  margin-top:20px;
+}
+
+.btn_up a:hover{
+  background-size: 100% 2px;
+}
+
+.btn_up a{
+  text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.moreIfnoStart:hover{
+  background-size: 100% 2px;
+}
+
+.moreIfnoStart{
+  text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.logo{
+  text-align: end;
+  height: 61px;
+  width: 61px;
+  margin-left:auto;
+  margin-right:20px;
+  margin-top:5px;
+}
+
+.block:hover{
+  filter: brightness(50%);
+}
+
+.block{
+  filter: brightness(100%);
+  transition: .5s;
+  cursor: pointer;
+}
+
+.newsPosts .post img:hover{
+  filter: brightness(50%)
+}
+
+.newsPosts .post img{
+  filter: brightness(100%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+footer{
+  height: 60px;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  background: #FBFBFB;
+}
+footer h4{
+  padding-right: 20px;
+  margin-left:50px;
+}
+
+html body.news_pagePhoto{
+  object-position: top;
+}

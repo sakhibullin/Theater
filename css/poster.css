@@ -1,0 +1,17 @@
+.list .gal{
+	opacity: 1;
+}
+
+.newsPosts .post{
+	opacity: 1;
+}
+
+.newsPosts .post img:hover{
+	filter: brightness(50%)
+}
+
+.newsPosts .post img{
+	filter: brightness(100%);
+	transition: 0.5s;
+	cursor: pointer;
+}
