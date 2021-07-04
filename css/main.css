@@ -293,6 +293,10 @@ font-size: 18px;
     margin-left: auto;
 }
 
+.arrowMoreBt p{
+  margin:auto; color: #282828
+}
+
 .newsPosts{
   width: 100%;
     height: 600px;
@@ -420,4 +424,150 @@ footer h4{
 
 html body.news_pagePhoto{
   object-position: top;
+}
+
+.newsh2{
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.description h4{
+  font-weight: 500;
+font-size: 20px;
+}
+
+.description p{
+  font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+}
+
+@media screen and (max-width: 900px){
+   .polos{
+    height: fit-content;
+    padding-bottom:20px;
+   }
+
+   .polos button{
+    margin-bottom:14px;
+   }
+
+   .description h4{
+    font-size: 15px;
+   }
+
+   .description p{
+    font-size: 13px;
+   }
+
+   .post {
+    height: 70%;
+    width: 90%;
+    margin-left: 50%;
+    transform: translate(-50%, 0px);
+   }
+
+   .newsh2{
+    font-size:16px;
+    margin-top:18px;
+   }
+
+   /*.block{
+          margin-left: 50%;
+        transform: translate(-50%, 0px);
+    }*/
+
+    .newsPostsRow{
+      height: fit-content;
+    }
+
+    .list h2{
+      font-size: 24px;
+    }
+
+    .header_st{
+      margin-left:10px;
+    }
+
+    .up{
+      font-size: 10px;
+      padding-top:10px;
+      margin-left:10px
+    }
+
+    .down{
+      font-size: 16px;
+      margin-left: 10px;
+    }
+
+    .newsPostsRow{
+      display: block;
+    }
+
+    #header{
+      height: 84px;
+    }
+
+  .main__menu a{
+    font-size: 10px;
+    margin-right: 15px;
+  }
+  .gal{
+    margin-left: 0;
+  }
+
+  .header_st a{
+    font-size: 13px;
+  }
+
+  .logo{
+    width: 50px;
+    height: 50px;
+  }
+
+  .main__menu{
+    height: 62px;
+  }
+
+  .btn_up{
+    padding-top: 22px;
+  }
+
+  .header_st a{
+    margin: auto 27px auto auto;
+  }
+
+  .btn_up{
+    margin-left:25px;
+  }
+
+  .polos button {
+    margin-right: 20px;
+    color: #ffffff;
+    width: 199px;
+    height: 38px;
+    border: 2.5px #ffffff solid;
+    border-radius: 40px;
+    background: #FA434B;
+    transition: .5s;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+  .arrowMoreBt p{
+    font-size: 10px;
+  }
+
+}
+@media screen and (max-width: 800px){
+
+  .block{
+          margin-left: 50%;
+        transform: translate(-50%, 0px);
+    }
+}
+
+@media screen and (max-width: 550px){
+
 }

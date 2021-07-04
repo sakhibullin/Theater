@@ -4,6 +4,8 @@ $(function() {
     loop:true,
     margin:0,
     nav:true,
+    autoplay:true,
+    autoplayTimeout:4500,
     responsive:{
         0:{
             items:1
@@ -55,6 +57,7 @@ if (winWidth > 1000){
     $('.listh2').css('opacity','1')  
     $('.gal').css('opacity','1') 
     $('.post').css('opacity','1') 
+    $('.owl-nav').css('display','none')
     }
 ////
 $(window).scroll(function() {
@@ -84,10 +87,10 @@ $('.litGal').find('.owl-carousel').owlCarousel({
             items:1
         },
         600:{
-            items:2
+            items:1
         },
-        1100:{
-            items:3
+        800:{
+            items:2
         },
 
         1300:{
